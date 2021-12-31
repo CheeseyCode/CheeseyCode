@@ -53,8 +53,8 @@ cls
 echo        Are you sure?(y/n)
 set /p exit?=
 
-if %exit?% == y cls exit
-if %exit?% == y cls exit
+if %exit?% == y exit
+if %exit?% == y exit
 if %exit?% == n cls goto menu
 if %exit?% == n cls goto menu
 
